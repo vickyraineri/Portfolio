@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.cdnfonts.com/css/raleway-5');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,7 +13,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: 'Space Mono', monospace;
+  background-image: url(C:\Users\vicky\OneDrive\Escritorio\Portfolio\client\src\assets\bgImage.jpg);
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  color: white;
 }
 
 * {
