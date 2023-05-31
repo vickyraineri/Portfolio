@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url(C:\Users\vicky\OneDrive\Escritorio\Portfolio\client\src\assets\bgImage.jpg);
+  background-image: url("./assets/bgImage.jpg");
   background-size: cover;
   font-family: 'Raleway', sans-serif;
   color: white;
