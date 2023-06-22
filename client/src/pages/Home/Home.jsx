@@ -11,7 +11,6 @@ export const Home = () => {
                     <div class="flex flex-col mt-5 ml-1 text-3xl mb-16">
                         <h>I'm a junior <h class="text-fuchsia-300 font-semibold">web developer</h> eager</h>
                         <h>to start my career in the IT industry!</h>
-                        <a href="/about" class="text-lg py-2 px-4 border-1 bg-fuchsia-400 w-fit rounded-3xl mt-5 font-semibold hover:scale-110 hover:ml-2">Learn more about me</a>
                     </div>
                 </div>
 

@@ -1,111 +1,75 @@
-import React, { useState } from "react";
+import React from "react";
 import Videogames from "../../assets/Videogames.png";
-import RoyalMakeup from "../../assets/RoyalMakeup.jpg";
+import RoyalMakeup from "../../assets/RoyalMakeup.png";
 import BuscadogQR from "../../assets/BuscadogQR.png";
+import { Carousel  } from "@material-tailwind/react";
 
 export const Projects = () => {
-    const [ option, setOption ] = useState("Videogames");
-
-    const handleChange = (e, opt) => {
-        e.preventDefault();
-
-        setOption(opt);
-    };
-
     return (
         <div class="mt-12 mb-24 flex flex-col">
             <h1 class="ml-16 text-4xl font-semibold mb-2 text-fuchsia-500">Projects</h1>
-            <h class="mx-16 text-xl">Here are some of the projects I´ve made:</h>
-
-            <div class="flex flex-col lg:flex-row gap-x-5 self-center items-center">
-                <div class="flex flex-col md:flex-row lg:flex-col gap-y-5 md:gap-10 mt-10">
-                    { option == "Videogames" && (
-                        <div class="bg-white text-fuchsia-800 w-screen md:w-fit h-fit pl-6 py-6 pr-16 rounded-3xl lg:rounded-l-none lg:rounded-r-3xl cursor-pointer">
-                            <h1 class="font-bold select-none">Videogames SPA</h1>
-                        </div>
-                    )}
-
-                    { option !== "Videogames" && (
-                        <div class="bg-gray-800 hover:bg-white hover:text-fuchsia-800 text-white w-screen md:w-fit h-fit pl-6 py-6 pr-16 rounded-3xl lg:rounded-l-none lg:rounded-r-3xl cursor-pointer" onClick={(e) => handleChange(e, "Videogames")}>
-                            <h1 class="font-bold select-none">Videogames SPA</h1>
-                        </div>
-                    )}
-
-                    { option == "RoyalMakeup" && (
-                        <div class="bg-white text-fuchsia-800 w-screen md:w-fit h-fit pl-6 py-6 pr-16 rounded-3xl lg:rounded-l-none lg:rounded-r-3xl cursor-pointer">
-                            <h1 class="font-bold select-none">Royal Makeup</h1>
-                        </div>
-                    )}
-
-                    { option !== "RoyalMakeup" && (
-                        <div class="bg-gray-800 hover:bg-white hover:text-fuchsia-800 text-white w-screen md:w-fit h-fit pl-6 py-6 pr-16 rounded-3xl lg:rounded-l-none lg:rounded-r-3xl cursor-pointer" onClick={(e) => handleChange(e, "RoyalMakeup")}>
-                            <h1 class="font-bold select-none">Royal Makeup</h1>
-                        </div>
-                    )}
-
-                    { option == "BuscadogQR" && (
-                        <div class="bg-white text-fuchsia-800 w-screen md:w-fit h-fit pl-6 py-6 pr-16 rounded-3xl lg:rounded-l-none lg:rounded-r-3xl cursor-pointer">
-                            <h1 class="font-bold select-none">Buscadog
-                            QR</h1>
-                        </div>
-                    )}
-
-                    { option !== "BuscadogQR" && (
-                        <div class="bg-gray-800 hover:bg-white hover:text-fuchsia-800 text-white w-screen md:w-fit h-fit pl-6 py-6 pr-16 rounded-3xl lg:rounded-l-none lg:rounded-r-3xl cursor-pointer" onClick={(e) => handleChange(e, "BuscadogQR")}>
-                            <h1 class="font-bold select-none">Buscadog
-                            QR</h1>
-                        </div>
-                    )}
-                </div> 
-
-                { option == "Videogames" && (
-                    <div class="mt-16">
-                        <h1 class="text-2xl font-bold mb-2 text-fuchsia-300 ml-20">Videogames SPA</h1>
-                        <div class="flex flex-col lg:flex-row mt-5">
-                            <img src={Videogames} class="md:h-96 lg:ml-20" alt="Pokemon Image"/>
-                            <div class="flex flex-col justify-between lg:mx-5 mt-3 mx-10">
-                                <div>
-                                    <h>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta architecto nemo fugiat suscipit a alias voluptatibus. Assumenda facere aut, maxime accusamus quos veniam, quasi, amet possimus incidunt laudantium ipsam repudiandae?</h>
-                                    <h>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti in ipsa esse fugit debitis soluta a. Velit deleniti, accusantium, iste quisquam in architecto, ipsam obcaecati libero accusamus reprehenderit esse laboriosam?</h>
-                                </div>
-                                <a href="https://henryvideogamespi.vercel.app" target="_blank" class="mb-2 text-blue-300 hover:text-blue-400">Visit the web page 🚀</a>
+            <h class="mx-16 text-xl mb-16">Here are some of the projects I´ve made:</h>
+            
+            <Carousel transition={{ duration: 2 }}>
+                <div className="relative h-full w-full">
+                    <img
+                    src={BuscadogQR}
+                    alt="BuscadogQR Image"
+                    className="h-screen lg:h-full w-full object-cover"
+                    />
+                    <div className="absolute inset-0 grid h-full w-full items-end bg-black/75">
+                        <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
+                            <h1 class="font-bold text-xl lg:text-7xl mb-5">BuscadogQR</h1>
+                            <h class="lg:text-xl">Web page which facilitates the search for lost pets. The page allows users to register,
+                            log in and register pets. It also features an admin page. It was developed using JavaScript, HTML, CSS, Tailwind CSS,
+                            React.js and Firebase.</h>
+                            <div class="mt-8">
+                                <a href="https://buscadogqr.vercel.app" target="_blank" class="border-2 rounded-xl px-5 py-2 border-fuchsia-300 bg-fuchsia-300/50 animate-pulse lg:text-xl hover:animate-none outline-none">Visit web page</a>
                             </div>
-                        </div>
-                    </div>
-                )}
-
-                { option == "RoyalMakeup" && (
-                    <div class="mt-16">
-                    <h1 class="text-2xl font-bold mb-2 text-fuchsia-300 ml-20">Royal Makeup</h1>
-                    <div class="flex flex-col lg:flex-row mt-5">
-                        <img src={RoyalMakeup} class="md:h-96 lg:ml-20" alt="Royal Makeup Image"/>
-                        <div class="flex flex-col justify-between lg:mx-5 mt-3 mx-10">
-                            <div>
-                                <h>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aperiam vel ab voluptate minima autem rerum aliquam velit odit aspernatur consectetur fuga deleniti veritatis beatae eum, aliquid, dolores illo harum.</h>
-                                <h>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit eum atque eveniet iusto magni laborum tempora officia laudantium, beatae asperiores dolores dolorum aliquid amet, facilis cupiditate rem, molestias ipsum eos!</h>
-                            </div>
-                            <a href="https://royalmakeup.vercel.app" target="_blank" class="mb-2 text-blue-300 hover:text-blue-400">Visit the web page 🚀</a>
                         </div>
                     </div>
                 </div>
-                )}
-
-                { option == "BuscadogQR" && (
-                    <div class="mt-16">
-                    <h1 class="text-2xl font-bold mb-2 text-fuchsia-300 ml-20">BuscadogQR</h1>
-                    <div class="flex flex-col lg:flex-row mt-5">
-                        <img src={BuscadogQR} class="md:h-96 lg:ml-20" alt="BuscadogQR Image"/>
-                        <div class="flex flex-col justify-between lg:mx-5 mt-3 mx-10">
-                            <div>
-                                <h>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat minima vitae laudantium quia illo, exercitationem architecto fugit debitis aliquid et deserunt adipisci porro at, dolore, dolorem nisi nulla ducimus suscipit!</h>
-                                <h>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laborum alias labore porro aut quos itaque necessitatibus ratione magnam minus laudantium iure voluptatem, ex autem possimus nulla? Est, ipsam at.</h>
-                            </div>
-                            <a href="https://buscadogqr.vercel.app" target="_blank" class="mb-2 text-blue-300 hover:text-blue-400">Visit the web page 🚀</a>
+                <div className="relative h-full w-full">
+                    <img
+                    src={Videogames}
+                    alt="Videogames Image"
+                    className="h-screen lg:h-full w-full object-cover"
+                    />
+                    <div className="absolute inset-0 grid h-full w-full items-end bg-black/75">
+                    <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
+                        <h1 class="font-bold text-xl lg:text-7xl mb-5">Henry Videogames</h1>
+                        <h class="lg:text-xl">Individual project made during the Henry bootcamp. It consists of a web page which
+                        allows the user to list, filter, order and view the details of diverse videogames. It was built using the PERN stack:
+                        PostgreSQL, Express.js, React.js and Node.js.</h>
+                        <div class="mt-8">
+                            <a href="https://henryvideogamespi.vercel.app" target="_blank" class="border-2 rounded-xl px-5 py-2 border-fuchsia-300 bg-fuchsia-300/50 animate-pulse lg:text-xl hover:animate-none outline-none">Visit web page</a>
                         </div>
                     </div>
+                    </div>
                 </div>
-                )}
-            </div>
+                <div className="relative h-full w-full">
+                    <img
+                    src={RoyalMakeup}
+                    alt="Royal Makeup Image"
+                    className="h-screen lg:h-full w-full object-cover"
+                    />
+                    <div className="absolute inset-0 grid h-full w-full items-end bg-black/75">
+                    <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
+                        <h1 class="font-bold text-xl lg:text-7xl mb-5">Royal Makeup</h1>
+                        <h class="lg:text-xl">Final and group project of the Henry bootcamp. Royal Makeup is an e-commerce web
+                        page. It features a home page with three sections, a catalogue with multiple filters,
+                        user profiles, authentication using Firebase, a shopping cart, payment with PayPal and
+                        an admin page. It also has a mailing service implemented. The technologies we used to
+                        build this e-commerce were: JavaScript, HTML, CSS, Tailwind CSS, React.js, Material UI,
+                        Redux, Sequelize, Express.js, Node.js, PostgreSQL, Nodemailer and Firebase
+                        Authentication.</h>
+                        <div class="mt-8">
+                            <a href="https://royalmakeup.vercel.app" target="_blank" class="border-2 rounded-xl px-5 py-2 border-fuchsia-300 bg-fuchsia-300/50 animate-pulse lg:text-xl hover:animate-none outline-none">Visit web page</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </Carousel>
         </div>
     )
 };
