@@ -31,7 +31,7 @@ export const About = () => {
                     QR code is scanned. It was developed using JavaScript, HTML, CSS, Tailwind CSS,
                     React.js and Firebase.
                     <br/>
-                    <a href="https://buscadogqr.vercel.app" target="_blank" class="text-fuchsia-300 outline-none hover:underline hover:underline-offset-4">Visit the web page</a>
+                    <a href="https://buscadogqr.vercel.app" target="_blank" class="text-fuchsia-300 outline-none hover:underline hover:underline-offset-4 cursor-same">Visit the web page</a>
                     </h>
                 </div>
                 <div class="mt-5 ml-5">
