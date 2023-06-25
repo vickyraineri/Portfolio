@@ -67,7 +67,7 @@ export const Projects = () => {
                             log in and register pets. It also features an admin page. It was developed using JavaScript, HTML, CSS, Tailwind CSS,
                             React.js and Firebase.</h>
                                 <div class="mb-5 mt-8">
-                                    <a href="https://buscadogqr.vercel.app" target="_blank" class="border-2 rounded-xl px-5 py-2 border-fuchsia-300 bg-fuchsia-300/50 animate-pulse big:text-sm huge:text-xl hover:animate-none outline-none cursor-same">Visit web page</a>
+                                    <a href="https://buscadogqr.vercel.app" target="_blank" class="border-2 rounded-xl px-5 py-2 border-fuchsia-300 bg-fuchsia-300/50 animate-pulse big:text-sm huge:text-xl hover:animate-none outline-none cursor-same outline-none">Visit web page</a>
                                 </div>
                             </div>
                         </div>
@@ -84,7 +84,7 @@ export const Projects = () => {
                                 allows the user to list, filter, order and view the details of diverse videogames. It was built using: JavaScript, HTML, CSS, 
                                 React.js and Redux.</h>
                                 <div class="mb-5 md:mb-0 mt-8">
-                                    <a href="https://henryvideogamespi.vercel.app" target="_blank" class="border-2 rounded-xl px-5 py-2 border-fuchsia-300 bg-fuchsia-300/50 animate-pulse big:text-sm huge:text-xl hover:animate-none outline-none cursor-same">Visit web page</a>
+                                    <a href="https://henryvideogamespi.vercel.app" target="_blank" class="border-2 rounded-xl px-5 py-2 border-fuchsia-300 bg-fuchsia-300/50 animate-pulse big:text-sm huge:text-xl hover:animate-none outline-none cursor-same outline-none">Visit web page</a>
                                 </div>
                             </div>
                         </div> 
@@ -99,18 +99,18 @@ export const Projects = () => {
                                 <h1 class="font-bold text-xl big:text-xl huge:text-7xl mb-5">Royal Makeup</h1>
                                 <h class="md:text-huge big:text-sm huge:text-xl">Final and group project of the Henry bootcamp. It features a home page, a catalogue, user profiles, a shopping cart, payment with PayPal, a mailing service and an admin page. The technologies we used were: JavaScript, HTML, CSS, Tailwind CSS, React.js, Material UI, Redux, Sequelize, Express.js, Node.js, PostgreSQL, Nodemailer and Firebase Authentication.</h>
                                 <div class="mb-5 md:mb-0 mt-8">
-                                    <a href="https://royalmakeup.vercel.app" target="_blank" class="border-2 rounded-xl px-5 py-2 border-fuchsia-300 bg-fuchsia-300/50 animate-pulse big:text-sm huge:text-xl hover:animate-none outline-none cursor-same">Visit web page</a>
+                                    <a href="https://royalmakeup.vercel.app" target="_blank" class="border-2 rounded-xl px-5 py-2 border-fuchsia-300 bg-fuchsia-300/50 animate-pulse big:text-sm huge:text-xl hover:animate-none outline-none cursor-same outline-none">Visit web page</a>
                                 </div>
                             </div>
                         </div>
                     )}
                 </div>
 
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 md:w-12 md:h-12 stroke-gray-500 absolute top-3/4 ml-5 bg-gray-300 p-1 px-2 rounded-3xl hover:bg-gray-400 hover:stroke-gray-600" onClick={() => carouselController("prev")}>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 md:w-12 md:h-12 stroke-gray-500 absolute top-3/4 ml-5 bg-gray-300 p-1 px-2 rounded-3xl hover:bg-gray-400 hover:stroke-gray-600 outline-none" onClick={() => carouselController("prev")}>
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
                 </svg>
 
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 md:w-12 md:h-12 stroke-gray-500 absolute top-3/4 right-0 mx-5 bg-gray-300 p-1 px-2 rounded-3xl hover:bg-gray-400 hover:stroke-gray-600" onClick={() => carouselController("next")}>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 md:w-12 md:h-12 stroke-gray-500 absolute top-3/4 right-0 mx-5 bg-gray-300 p-1 px-2 rounded-3xl hover:bg-gray-400 hover:stroke-gray-600 outline-none" onClick={() => carouselController("next")}>
                     <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                 </svg>
 

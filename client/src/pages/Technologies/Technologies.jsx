@@ -16,7 +16,7 @@ export const Technologies = () => {
             <h1 class="text-4xl font-semibold mb-2 text-fuchsia-500">Technologies</h1>
             <h class="text-xl">Here are some of the technologies I've worked with:</h>
 
-            <div class="w-fit self-center mt-16 grid grid-cols-1 lg:grid-cols-3 gap-x-24 gap-y-20 border-2 border-x-purple-600 border-y-fuchsia-500 shadow-md shadow-fuchsia-500/50 p-20 md:p-32 py-24 rounded-3xl justify-center bg-black/50 select-none items-center">
+            <div class="w-fit self-center mt-16 grid grid-cols-1 lg:grid-cols-3 gap-x-24 gap-y-20 border-2 border-x-purple-600 border-y-fuchsia-500 shadow-md shadow-fuchsia-500/50 p-20 md:p-32 py-24 rounded-3xl justify-center bg-black/50 select-none items-center mb-16">
                 <div class="flex flex-col items-center gap-y-3 hover:scale-125">
                     <img src={HTML} class="w-auto h-20 md:h-24" alt="html"/>
                     <h class="font-semibold">HTML</h>
