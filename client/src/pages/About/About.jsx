@@ -1,19 +1,6 @@
 import React from "react";
-import Me from "../../assets/me.jpeg";
 
 export const About = () => {
-
-    const switcher = (action) => {
-        console.log("hola")
-        if(action == "open") {
-            document.getElementById("openDoc").style.display = "none";
-            document.getElementById("doc").style.display = "block";
-        } else if (action == "close") {
-            document.getElementById("doc").style.display = "none";
-            document.getElementById("openDoc").style.display = "block";
-        };
-    };  
-
     return (
         <div class="mx-16 my-12 flex flex-col items-center select-none">
             <h1 class="text-4xl font-semibold text-fuchsia-500 self-start">About me</h1>
