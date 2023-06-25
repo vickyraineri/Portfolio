@@ -22,6 +22,13 @@ module.exports = withMT({
                     900: "#701a75",
                     950: "#4a044e"
                 }
+            },
+            cursor: {
+                'same': 'url("./assets/cursorV.png"), pointer',
+            },
+            screens: {
+                "big": "960px",
+                "huge": "1270px"
             }
         },
     },

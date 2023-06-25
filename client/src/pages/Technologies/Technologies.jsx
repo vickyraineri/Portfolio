@@ -12,7 +12,7 @@ import EXPRESSJS from "../../assets/EXPRESSJS.png"
 
 export const Technologies = () => {
     return (
-        <div class="mx-16 my-12 flex flex-col">
+        <div class="mx-16 my-12 flex flex-col select-none">
             <h1 class="text-4xl font-semibold mb-2 text-fuchsia-500">Technologies</h1>
             <h class="text-xl">Here are some of the technologies I've worked with:</h>
 

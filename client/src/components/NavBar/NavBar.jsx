@@ -29,19 +29,19 @@ export const NavBar = () => {
                 <div class="flex flex-row gap-x-5 items-center">
                     <div class="hidden md:block">
                         <Link to="/home">
-                            <button class="p-1 px-2 border-2 rounded-xl mx-1 border-x-purple-600 border-y-fuchsia-500 font-semibold select-none hover:border-y-purple-600 hover:border-x-fuchsia-500 hover:shadow-md hover:shadow-fuchsia-500/50">Home</button>
+                            <button class="p-1 px-2 border-2 rounded-xl mx-1 border-x-purple-600 border-y-fuchsia-500 font-semibold select-none hover:border-y-purple-600 hover:border-x-fuchsia-500 hover:shadow-md hover:shadow-fuchsia-500/50 cursor-same">Home</button>
                         </Link>
                         <Link to="/projects">
-                            <button class="p-1 px-2 border-2 rounded-xl mx-1 border-y-purple-600 border-x-fuchsia-500 font-semibold select-none hover:border-x-purple-600 hover:border-y-fuchsia-500 hover:shadow-md hover:shadow-fuchsia-500/50">Projects</button>
+                            <button class="p-1 px-2 border-2 rounded-xl mx-1 border-y-purple-600 border-x-fuchsia-500 font-semibold select-none hover:border-x-purple-600 hover:border-y-fuchsia-500 hover:shadow-md hover:shadow-fuchsia-500/50 cursor-same">Projects</button>
                         </Link>
                         <Link to="/technologies">
-                            <button class="p-1 px-2 border-2 rounded-xl mx-1 border-x-purple-600 border-y-fuchsia-500 font-semibold select-none hover:border-y-purple-600 hover:border-x-fuchsia-500 hover:shadow-md hover:shadow-fuchsia-500/50">Technologies</button>
+                            <button class="p-1 px-2 border-2 rounded-xl mx-1 border-x-purple-600 border-y-fuchsia-500 font-semibold select-none hover:border-y-purple-600 hover:border-x-fuchsia-500 hover:shadow-md hover:shadow-fuchsia-500/50 cursor-same">Technologies</button>
                         </Link>
                         <Link to="/about">
-                            <button class="p-1 px-2 border-2 rounded-xl mx-1 border-x-purple-600 border-y-fuchsia-500 font-semibold select-none hover:border-y-purple-600 hover:border-x-fuchsia-500 hover:shadow-md hover:shadow-fuchsia-500/50">About me</button>
+                            <button class="p-1 px-2 border-2 rounded-xl mx-1 border-x-purple-600 border-y-fuchsia-500 font-semibold select-none hover:border-y-purple-600 hover:border-x-fuchsia-500 hover:shadow-md hover:shadow-fuchsia-500/50 cursor-same">About me</button>
                         </Link>
                         <Link to="/contact">
-                            <button class="p-1 px-2 border-2 rounded-xl mx-1 border-y-purple-600 border-x-fuchsia-500 font-semibold select-none hover:border-x-purple-600 hover:border-y-fuchsia-500 hover:shadow-md hover:shadow-fuchsia-500/50">Contact</button>
+                            <button class="p-1 px-2 border-2 rounded-xl mx-1 border-y-purple-600 border-x-fuchsia-500 font-semibold select-none hover:border-x-purple-600 hover:border-y-fuchsia-500 hover:shadow-md hover:shadow-fuchsia-500/50 cursor-same">Contact</button>
                         </Link>
                     </div>
 

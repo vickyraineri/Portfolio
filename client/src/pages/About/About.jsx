@@ -3,7 +3,7 @@ import Me from "../../assets/me.jpeg";
 
 export const About = () => {
     return (
-        <div class="mx-16 my-12 flex flex-col items-center">
+        <div class="mx-16 my-12 flex flex-col items-center select-none">
             <h1 class="text-4xl font-semibold text-fuchsia-500 self-start">About me</h1>
             <div class="flex flex-col gap-8 mt-10 lg:mt-0 justify-center items-center lg:text-xl">
                 <div class="lg:mt-10 mx-10 md:mx-0">

@@ -5,7 +5,7 @@ export const Home = () => {
     return (
         <div class="mx-16 md:mx-52 mt-32 mb-10">
             <div class="flex flex-wrap items-center justify-around">
-                <div class="flex flex-col">
+                <div class="flex flex-col select-none">
                     <h1 class="flex flex-wrap text-6xl font-semibold gap-5">Hi! I'm <h1 class="animate-bounce text-fuchsia-500">Victoria</h1></h1>
 
                     <div class="flex flex-col mt-5 ml-1 text-3xl mb-16">
