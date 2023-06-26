@@ -7,7 +7,7 @@ export const Projects = () => {
     const [current, setCurrent] = useState("buscadogqr");
     const [videogamesImg, setVideogamesImg] = useState("");
     const [buscadogqrImg, setBuscadogqrImg] = useState("");
-    const [royalmakeup, setRoyalmakeupImg] = useState("");
+    const [royalmakeupImg, setRoyalmakeupImg] = useState("");
 
     useEffect(() => { //did this so the images changed faster
         setVideogamesImg(Videogames);
@@ -68,7 +68,7 @@ export const Projects = () => {
                 <div id="buscadogqr">
                     { current == "buscadogqr" && (
                         <div>
-                            <img src={buscadogqrImg && buscadogqrImg} alt="BuscadogQR" class="brightness-[0.25] h-screen huge:h-full w-full object-cover"/>
+                            <img src={buscadogqrImg || "https://www.solidbackgrounds.com/images/1920x1080/1920x1080-white-solid-color-background.jpg"} alt="BuscadogQR" class="brightness-[0.25] h-screen huge:h-full w-full object-cover"/>
                             <div className="absolute top-2/3 md:top-3/4 huge:top-3/4 w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 huge:pl-32 huge:pb-32 ml-5 huge:ml-0">
                                 <h1 class="font-bold text-xl big:text-xl huge:text-7xl mb-5">BuscadogQR</h1>
                                 <h class="big:text-sm huge:text-xl">Web page which facilitates the search for lost pets. The page allows users to register,
@@ -85,7 +85,7 @@ export const Projects = () => {
                 <div id="videogames" class="hidden">
                     { current == "videogames" && (
                         <div>
-                            <img src={videogamesImg && videogamesImg} alt="Videogames" class="brightness-[0.25] h-screen huge:h-full w-full object-cover"/>
+                            <img src={videogamesImg || "https://www.solidbackgrounds.com/images/1920x1080/1920x1080-white-solid-color-background.jpg"} alt="Videogames" class="brightness-[0.25] h-screen huge:h-full w-full object-cover"/>
                             <div className="absolute top-2/3 md:top-3/4 w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 huge:pl-32 huge:pb-32 ml-5 huge:ml-0">
                                 <h1 class="font-bold text-xl big:text-xl huge:text-7xl mb-5">Henry Videogames</h1>
                                 <h class="big:text-sm huge:text-xl">Individual project made during the Henry bootcamp. It consists of a web page which
@@ -102,7 +102,7 @@ export const Projects = () => {
                 <div id="royalmakeup" class="hidden">
                     { current == "royalmakeup" && (
                         <div>
-                            <img src={royalmakeup && royalmakeup} alt="Royal Makeup" class="brightness-[0.25] h-screen huge:h-full w-full object-cover"/>
+                            <img src={royalmakeupImg || "https://www.solidbackgrounds.com/images/1920x1080/1920x1080-white-solid-color-background.jpg"} alt="Royal Makeup" class="brightness-[0.25] h-screen huge:h-full w-full object-cover"/>
                             <div className="absolute top-[25rem] big:top-2/3 top-3/4 w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 huge:pl-32 huge:pb-32 ml-5 huge:ml-0">
                                 <h1 class="font-bold text-xl big:text-xl huge:text-7xl mb-5">Royal Makeup</h1>
                                 <h class="md:text-huge big:text-sm huge:text-xl">Final and group project of the Henry bootcamp. It features a home page, a catalogue, user profiles, a shopping cart, payment with PayPal, a mailing service and an admin page. The technologies we used were: JavaScript, HTML, CSS, Tailwind CSS, React.js, Material UI, Redux, Sequelize, Express.js, Node.js, PostgreSQL, Nodemailer and Firebase Authentication.</h>
