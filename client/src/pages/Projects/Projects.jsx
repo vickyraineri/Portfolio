@@ -20,14 +20,12 @@ export const Projects = () => {
             switch(current) {
 
                 case "buscadogqr": {
-                    document.getElementById("buscadogqr").style.display = "none"; 
                     document.getElementById("videogames").style.display = "block"; 
                     setCurrent("videogames");
                     break;
                 }
                 
                 case "videogames":
-                    document.getElementById("videogames").style.display = "none";
                     document.getElementById("royalmakeup").style.display = "block";
                     setCurrent("royalmakeup");
                     break; 
@@ -41,13 +39,11 @@ export const Projects = () => {
 
             switch(current) {
                 case "royalmakeup":
-                    document.getElementById("royalmakeup").style.display = "none";
                     document.getElementById("videogames").style.display = "block";
                     setCurrent("videogames");
                     break;
                 
                 case "videogames":
-                    document.getElementById("videogames").style.display = "none";
                     document.getElementById("buscadogqr").style.display = "block";
                     setCurrent("buscadogqr");
                     break; 
@@ -67,7 +63,7 @@ export const Projects = () => {
             <div>
                 <div id="buscadogqr">
                     { current == "buscadogqr" && (
-                        <div>
+                        <div class="transition-opacity ease-in duration-700 opacity-100">
                             <img src={buscadogqrImg || "https://www.solidbackgrounds.com/images/1920x1080/1920x1080-white-solid-color-background.jpg"} alt="BuscadogQR" class="brightness-[0.25] h-screen huge:h-full w-full object-cover"/>
                             <div className="absolute top-2/3 md:top-3/4 huge:top-3/4 w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 huge:pl-32 huge:pb-32 ml-5 huge:ml-0">
                                 <h1 class="font-bold text-xl big:text-xl huge:text-7xl mb-5">BuscadogQR</h1>
