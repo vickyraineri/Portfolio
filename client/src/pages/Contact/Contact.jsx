@@ -5,7 +5,7 @@ import Github from "../../assets/Github.png";
 
 export const Contact = () => {
     return (
-        <div class="m-16 mt-12 select-none">
+        <div class="m-16 mt-12 mb-24 select-none">
             <div class="mb-16">
                 <h1 class="text-4xl font-semibold mb-2 text-fuchsia-300">Get in touch with me!</h1>
                 <h class="text-2xl">You can find me in:</h>

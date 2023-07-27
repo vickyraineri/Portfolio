@@ -29,6 +29,9 @@ module.exports = withMT({
             screens: {
                 "big": "960px",
                 "huge": "1270px"
+            },
+            backgroundImage: {
+                fuchsiabg: "url('./assets/bgImage.jpg')"
             }
         },
     },

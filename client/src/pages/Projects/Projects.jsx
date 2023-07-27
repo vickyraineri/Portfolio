@@ -6,7 +6,7 @@ import { Carousel } from  "@material-tailwind/react";
 
 export const Projects = () => {
     return (
-        <div class="mt-12 mb-24 flex flex-col select-none">
+        <div class="mt-32 mb-24 flex flex-col select-none">
             <h1 class="ml-16 text-4xl font-semibold mb-2 text-fuchsia-500">Projects</h1>
             <h class="mx-16 text-xl mb-16">Here are some of the projects I´ve made:</h>
 
@@ -45,9 +45,14 @@ export const Projects = () => {
                             <h class="big:text-sm huge:text-xl">Web page which facilitates the search for lost pets. The page allows users to register,
                             log in and register pets. It also features an admin page. It was developed using JavaScript, HTML, CSS, Tailwind CSS,
                             React.js and Firebase.</h>
-                            <div class="mt-8">
-                                <a href="https://buscadogqr.vercel.app" target="_blank" class="border-2 rounded-xl px-5 py-2 border-fuchsia-300 bg-fuchsia-300/50 animate-pulse big:text-sm huge:text-xl hover:animate-none outline-none cursor-same outline-none">Visit web page</a>
-                            </div>
+
+                            <a href="https://buscadogqr.vercel.app" target="_blank" class="mt-3 flex gap-x-2 items-center hover:underline hover:underline-offset-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-fuchsia-200">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                                </svg>
+
+                                <h class="big:text-sm huge:text-base cursor-same text-fuchsia-200">visit web page</h>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -60,9 +65,14 @@ export const Projects = () => {
                             <h class="big:text-sm huge:text-xl">Individual project made during the Henry bootcamp. It consists of a web page which
                             allows the user to list, filter, order and view the details of diverse videogames. It was built using: JavaScript, HTML, CSS, 
                             React.js and Redux.</h>
-                            <div class="mt-8">
-                                <a href="https://henryvideogamespi.vercel.app" target="_blank" class="border-2 rounded-xl px-5 py-2 border-fuchsia-300 bg-fuchsia-300/50 animate-pulse big:text-sm huge:text-xl hover:animate-none outline-none cursor-same outline-none">Visit web page</a>
-                            </div>
+
+                            <a href="https://henryvideogamespi.vercel.app" target="_blank" class="mt-3 flex gap-x-2 items-center hover:underline hover:underline-offset-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-fuchsia-200">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                                </svg>
+
+                                <h class="big:text-sm huge:text-base cursor-same text-fuchsia-200">visit web page</h>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -73,9 +83,14 @@ export const Projects = () => {
                         <div class="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32 ml-5 md:ml-0">
                             <h1 class="font-bold text-xl big:text-xl huge:text-7xl mb-5">Royal Makeup</h1>
                             <h class="md:text-huge big:text-sm huge:text-xl">Final and group project of the Henry bootcamp. It features a home page, a catalogue, user profiles, a shopping cart, payment with PayPal, a mailing service and an admin page. The technologies we used were: JavaScript, HTML, CSS, Tailwind CSS, React.js, Material UI, Redux, Sequelize, Express.js, Node.js, PostgreSQL, Nodemailer and Firebase Authentication.</h>
-                            <div class="mt-8">
-                                <a href="https://royalmakeup.vercel.app" target="_blank" class="border-2 rounded-xl px-5 py-2 border-fuchsia-300 bg-fuchsia-300/50 animate-pulse big:text-sm huge:text-xl hover:animate-none outline-none cursor-same outline-none">Visit web page</a>
-                            </div>
+
+                            <a href="https://royalmakeup.vercel.app" target="_blank" class="mt-3 flex gap-x-2 items-center hover:underline hover:underline-offset-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-fuchsia-200">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                                </svg>
+                                
+                                <h class="big:text-sm huge:text-base cursor-same text-fuchsia-200">visit web page</h>
+                            </a>
                         </div>
                     </div>
                 </div>
