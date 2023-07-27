@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import "./Slider.css";
+
+//  <----- PAGES ----->
 import { Home } from "../pages/Home/Home";
 import { Contact } from "../pages/Contact/Contact";
 import { Technologies } from "../pages/Technologies/Technologies";
 import { Projects } from "../pages/Projects/Projects";
 import { About } from "../pages/About/About";
-import "./Slider.css";
 
 export const Slider = () => {
     const [currentPosition, setCurrentPosition] = useState(0);
