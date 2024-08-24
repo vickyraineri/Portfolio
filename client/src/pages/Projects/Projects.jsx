@@ -1,5 +1,5 @@
 import React from "react";
-import Videogames from "../../assets/Videogames.png";
+import Pokemons from "../../assets/Pokemons.png";
 import RoyalMakeup from "../../assets/RoyalMakeup.png";
 import BuscadogQR from "../../assets/BuscadogQR.png";
 import { Carousel } from  "@material-tailwind/react";
@@ -53,15 +53,15 @@ export const Projects = () => {
                 </div>
 
                 <div class="relative h-full w-full">
-                    <img src={Videogames} alt="Videogames" class="h-screen lg:h-full w-full object-cover"/>
+                    <img src={Pokemons} alt="Pokemons" class="h-screen lg:h-full w-full object-cover"/>
                     <div class="absolute inset-0 grid h-full w-full items-end bg-black/75">
                         <div class="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32 ml-5 md:ml-0">
-                            <h1 class="font-bold text-xl big:text-xl huge:text-7xl mb-5">Henry Videogames</h1>
+                            <h1 class="font-bold text-xl big:text-xl huge:text-7xl mb-5">Henry Pokemons</h1>
                             <h class="big:text-sm huge:text-xl">Individual project made during the Henry bootcamp. It consists of a web page which
-                            allows the user to list, filter, order and view the details of diverse videogames. It was built using: JavaScript, HTML, CSS, 
+                            allows the user to list, filter, order and view the details of diverse pokemons. It also allows the user to create their own pokemon! It was built using: JavaScript, HTML, CSS, 
                             React.js and Redux.</h>
                             <div class="mt-8">
-                                <a href="https://henryvideogamespi.vercel.app" target="_blank" class="border-2 rounded-xl px-5 py-2 border-fuchsia-300 bg-fuchsia-300/50 animate-pulse big:text-sm huge:text-xl hover:animate-none outline-none cursor-same outline-none">Visit web page</a>
+                                <a href="https://henrypokemonspi.vercel.app/" target="_blank" class="border-2 rounded-xl px-5 py-2 border-fuchsia-300 bg-fuchsia-300/50 animate-pulse big:text-sm huge:text-xl hover:animate-none outline-none cursor-same outline-none">Visit web page</a>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ export const Projects = () => {
                             <h1 class="font-bold text-xl big:text-xl huge:text-7xl mb-5">Royal Makeup</h1>
                             <h class="md:text-huge big:text-sm huge:text-xl">Final and group project of the Henry bootcamp. It features a home page, a catalogue, user profiles, a shopping cart, payment with PayPal, a mailing service and an admin page. The technologies we used were: JavaScript, HTML, CSS, Tailwind CSS, React.js, Material UI, Redux, Sequelize, Express.js, Node.js, PostgreSQL, Nodemailer and Firebase Authentication.</h>
                             <div class="mt-8">
-                                <a href="https://royalmakeup.vercel.app" target="_blank" class="border-2 rounded-xl px-5 py-2 border-fuchsia-300 bg-fuchsia-300/50 animate-pulse big:text-sm huge:text-xl hover:animate-none outline-none cursor-same outline-none">Visit web page</a>
+                                <a href="https://github.com/silvina-varela/E-commerce" target="_blank" class="border-2 rounded-xl px-5 py-2 border-fuchsia-300 bg-fuchsia-300/50 animate-pulse big:text-sm huge:text-xl hover:animate-none outline-none cursor-same outline-none">Visit repository</a>
                             </div>
                         </div>
                     </div>
